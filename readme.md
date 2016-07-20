@@ -11,12 +11,14 @@ This is also an opportunity for job seekers. If you’d like to be considered fo
 ###Problem
 Paper streets are streets that are on a map, but do not exist in reality. A street can be planned but never built, and still end up on a map. Map makers also used to use paper streets to catch other companies copying and selling their maps.
 
-Your challenge is to find the number of groups of paper streets on a map. A street is any contiguous, straight line segment. A paper street is a street with no homes on it (a home on the vertex of a line doesn't count). A group is made of paper streets that all share at least one point with one other paper street in that group.
+Your challenge is to find the number of groups of paper streets on a map. A street is a line segment that starts and ends at intersections. A street is a paper street if it has no homes on it (a home on the end of the street doesn't count). A group is made of paper streets that all share at least one point with one other paper street in that group. 
+
 
       
 ###Counting Paper Streets Groups
 
 ![Map examples](map_examples.jpg)
+
 
 ###Inputs
 
