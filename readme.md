@@ -38,7 +38,7 @@ The homes are represented by X and Y coordinates. All numbers given are integers
       0   1   2   3   4
 
 ###Implementation
-Modify the function `count_paper_streets` in solution.py to return the number of paper streets.
+Modify the function `count_paper_streets` in solution.py to return the number of paper street groups.
 
 ###Tests
 A test suite is included. Use `python -m unittest tests` to run it. Look to the test output for examples.
